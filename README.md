@@ -7,6 +7,7 @@ Prof. Me. Camilo Barreto - IFTM-UDI-CENTRO
 #### Repositórios:
 
 - **store**: Exercício 02 resolvido - Mensageria com RabbitMQ
+- **postman**: Collections do postman para uso nos projetos da pasta **store**
 
 
 

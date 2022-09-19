@@ -1,0 +1,130 @@
+{
+	"info": {
+		"_postman_id": "2002932a-b108-4849-843c-58ac04fce551",
+		"name": "PurchaseOrder",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "7132654"
+	},
+	"item": [
+		{
+			"name": "GetAll",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/store/order",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"store",
+						"order"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteById",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/store/order/6328b6520097184b65481c9b",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"store",
+						"order",
+						"6328b6520097184b65481c9b"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Save",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"quantity\": 10,\r\n    \"date\": \"2022-09-19T13:33:38.773Z\",\r\n    \"totalPrice\": 0,\r\n    \"product\": {\r\n        \"name\": \"Memória DDR\",\r\n        \"code\": 1152455,\r\n        \"manufacture\": \"Kingston\",\r\n        \"price\": 250\r\n    },\r\n    \"user\": {\r\n        \"name\": \"Camilo\",\r\n        \"cpf\": \"11122233344\"\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/store/order",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"store",
+						"order"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"6328b71c0097184b65481c9c\",\r\n    \"quantity\": 10,\r\n    \"date\": \"2022-09-19T13:33:38.773Z\",\r\n    \"totalPrice\": 2500,\r\n    \"product\": {\r\n        \"name\": \"Memória DDR\",\r\n        \"code\": 1152455,\r\n        \"manufacture\": \"Kingston\",\r\n        \"price\": 250\r\n    },\r\n    \"user\": {\r\n        \"name\": \"Camilo\",\r\n        \"cpf\": \"11122233344\"\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/store/order",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"store",
+						"order"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetById",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/store/order/6328b71c0097184b65481c9c",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"store",
+						"order",
+						"6328b71c0097184b65481c9c"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

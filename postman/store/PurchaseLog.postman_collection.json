@@ -1,0 +1,96 @@
+{
+	"info": {
+		"_postman_id": "85ac44bf-99f0-45b8-bdac-9d2a2b2cfab3",
+		"name": "PurchaseLog",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "7132654"
+	},
+	"item": [
+		{
+			"name": "GetAll",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/log/order",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"log",
+						"order"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetById",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/log/order/id/6328b745f389003edb116494",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"log",
+						"order",
+						"id",
+						"6328b745f389003edb116494"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetByAction",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/log/order/action/UPDATE",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"log",
+						"order",
+						"action",
+						"UPDATE"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetByUser",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/log/order/user/Camilo",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"log",
+						"order",
+						"user",
+						"Camilo"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
