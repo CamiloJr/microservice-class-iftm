@@ -20,7 +20,6 @@ public class MessageConfig {
                 .durable(true)
                 .build();
     }
-
     @Bean
     public MessageConverter jsonMessageConverter() {
         return new Jackson2JsonMessageConverter();

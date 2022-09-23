@@ -21,6 +21,7 @@ public class PurchaseOrderSendMessageLog {
     public RabbitTemplate rabbitTemplate;
 
     public void sendMessage(Order order, Action action) {
+
         PurchaseOrderLog purchaseOrderLog = new PurchaseOrderLog();
         purchaseOrderLog.setAction(action);
         purchaseOrderLog.setOrderId(order.getId());

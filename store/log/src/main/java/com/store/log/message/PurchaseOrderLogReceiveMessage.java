@@ -16,7 +16,6 @@ public class PurchaseOrderLogReceiveMessage {
 
     @RabbitListener(queues = {"${store.rabbitmq.purchaseorder.log.queue}"})
     public void receive(@Payload PurchaseOrderLog purchaseOrderLog) {
-        System.out.println(purchaseOrderLog.toString());
         purchaseOrderLogService.save(purchaseOrderLog);
     }
 }

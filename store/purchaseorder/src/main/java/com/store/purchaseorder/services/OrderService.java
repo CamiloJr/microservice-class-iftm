@@ -29,7 +29,9 @@ public class OrderService {
     }
 
     public Order create(Order order) {
+
         order.SumTotalPrice();
+
         var newOrder = orderRepository.save(order);
         purchaseOrderSendMessageLog.sendMessage(newOrder, Action.ADD);
         return newOrder;
