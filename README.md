@@ -8,7 +8,8 @@ Prof. Me. Camilo Barreto - IFTM-UDI-CENTRO
 
 - **store**: Exercício 02 resolvido - Mensageria com RabbitMQ
 - **postman**: Collections do postman para uso nos projetos da pasta **store**
-
+- **eureka**: Projeto exemplo utilizando o Netflix Eureka Service Registry 
+- **api-gateway**: Projeto exemplo utilizando o Netflix Eureka Service Registry e o Spring Cloud Gateway
 
 
 #### Informações:
