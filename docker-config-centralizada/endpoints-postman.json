@@ -1,0 +1,111 @@
+{
+	"info": {
+		"_postman_id": "b642c610-b560-4fc5-95f8-5ca69c5a3eca",
+		"name": "Test-Config",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "7132654"
+	},
+	"item": [
+		{
+			"name": "Get-Config-Default",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8888/eureka-client/default",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"eureka-client",
+						"default"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get-Config-Test",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8888/eureka-client/test",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"eureka-client",
+						"test"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Feign-Get-Instances",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8765/eureka-client-feign/client-feign",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8765",
+					"path": [
+						"eureka-client-feign",
+						"client-feign"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Feign-Get-Config",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8765/eureka-client-feign/client-feign/configs",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8765",
+					"path": [
+						"eureka-client-feign",
+						"client-feign",
+						"configs"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Refresh-Configs",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8765/eureka-client-feign/client-feign",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8765",
+					"path": [
+						"eureka-client-feign",
+						"client-feign"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

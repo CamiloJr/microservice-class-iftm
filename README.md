@@ -10,6 +10,7 @@ Prof. Me. Camilo Barreto - IFTM-UDI-CENTRO
 - **postman**: Collections do postman para uso nos projetos da pasta **store**
 - **eureka**: Projeto exemplo utilizando o Netflix Eureka Service Registry 
 - **api-gateway**: Projeto exemplo utilizando o Netflix Eureka Service Registry e o Spring Cloud Gateway
+- **docker-config-centralizada**: Projeto de exemplo para a aplicação de configuração centralizada com o Config Server - Spring Boot;
 
 
 #### Informações:
